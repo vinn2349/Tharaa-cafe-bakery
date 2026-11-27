@@ -11,10 +11,8 @@ A beautiful, high-performance web storefront built from the ground up to handle 
 * **Decoupled Payload Delivery:** Implements strict DTO (Data Transfer Objects) payloads to ensure client web fields remain separate from system-persistent physical database records.
 * **Atomic Transactions:** Designed a standard schema using intermediate intersection records (`order_items`) that allows complex parent orders to hold distinct product variations without structure leakage.
 
-## 💾 Local Environment Spin-Up
+This project was collaboratively developed by:
 
-### 1. Database Implementation
-Execute the schema definitions inside your native MySQL server environment:
-```sql
-CREATE DATABASE bakerydb;
--- Paste the remaining table definition block scripts here
+Chandana Matam
+Vinay lebaka
+Both contributors worked together on project planning, development, implementation, and testing.
